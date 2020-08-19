@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="3.1"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         metadata-complete="false">
+    <display-name>AVSoft Test File service by slimechan</display-name>
+    <listener>
+        <listener-class>com.slimechan.avsoft.listener.ApplicationListener</listener-class>
+    </listener>
+    <context-param>
+        <param-name>properties</param-name>
+        <param-value>application.properties</param-value>
+    </context-param>
+</web-app>
